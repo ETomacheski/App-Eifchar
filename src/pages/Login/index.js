@@ -1,13 +1,10 @@
-import React from 'react'
-import { View, Image, Text, Button, Alert, TouchableHighlight } from 'react-native'
-import { useNavigation } from '@react-navigation/native'
+import React, { useEffect, useState } from 'react'
+import { View, Image, FlatList, Text, TouchableOpacity, Button, Alert, TouchableHighlight } from 'react-native'
 
 import LogoImg from '../../assets/logo2.png'
 import Styles from './styles'
 
 export default function Incidents () {
-  const navigation = useNavigation()
-
   return (
 
     <View style={Styles.container}>
@@ -18,10 +15,10 @@ export default function Incidents () {
       </View>
 
       <TouchableHighlight
-        onPress={() => navigation.navigate('Login')}
+        onPress={() => Alert.alert('Simple Button pressed')}
       >
         <Text style={Styles.button}>
-        Piloto
+        opa bom
         </Text>
       </TouchableHighlight>
       <TouchableHighlight
