@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { View, Image, FlatList, Text, TouchableOpacity, Button, Alert, TouchableHighlight } from 'react-native'
+import { View, Image, TextInput, Text, Alert, TouchableHighlight } from 'react-native'
 
 import LogoImg from '../../assets/logo2.png'
 import Styles from './styles'
@@ -14,18 +14,20 @@ export default function Incidents () {
 
       </View>
 
-      <TouchableHighlight
-        onPress={() => Alert.alert('Simple Button pressed')}
-      >
+      <TextInput
+        style={Styles.input}
+        label='Email'
+        placeholder='Digite seu Email'
+      />
+      <TextInput
+        style={Styles.input}
+        label='Senha'
+        placeholder='Digite sua senha'
+        secureTextEntry
+      />
+      <TouchableHighlight>
         <Text style={Styles.button}>
-        opa bom
-        </Text>
-      </TouchableHighlight>
-      <TouchableHighlight
-        onPress={() => Alert.alert('Simple Button pressed')}
-      >
-        <Text style={Styles.button}>
-        Visualizar dados
+        Entrar
         </Text>
       </TouchableHighlight>
 

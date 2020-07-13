@@ -38,13 +38,27 @@ export default StyleSheet.create({
     textAlign: 'center'
   },
 
+  input: {
+    marginRight: 40,
+    marginLeft: 40,
+    marginTop: 30,
+    paddingTop: 15,
+    paddingBottom: 15,
+    backgroundColor: '#fff',
+    borderRadius: 10,
+    borderWidth: 1,
+    borderColor: '#fff',
+    textAlign: 'center',
+    color: '#fff',
+    fontSize: 26
+  },
   button: {
     marginRight: 40,
     marginLeft: 40,
     marginTop: 30,
     paddingTop: 15,
     paddingBottom: 15,
-    backgroundColor: '#ff2300',
+    backgroundColor: '#3A3A45',
     borderRadius: 10,
     borderWidth: 1,
     borderColor: '#fff',
