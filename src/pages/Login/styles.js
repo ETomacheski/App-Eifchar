@@ -49,7 +49,7 @@ export default StyleSheet.create({
     borderWidth: 1,
     borderColor: '#fff',
     textAlign: 'center',
-    color: '#fff',
+    color: '#3A3A45',
     fontSize: 26
   },
   button: {

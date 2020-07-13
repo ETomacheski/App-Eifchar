@@ -16,13 +16,13 @@ export default function Incidents () {
 
       <TextInput
         style={Styles.input}
-        label='Email'
-        placeholder='Digite seu Email'
+        label='user'
+        placeholder='Usuário'
       />
       <TextInput
         style={Styles.input}
-        label='Senha'
-        placeholder='Digite sua senha'
+        label='password'
+        placeholder='Senha'
         secureTextEntry
       />
       <TouchableHighlight>
